@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+ 
+body {
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500 !important;
+
+}
+
+.calc{
+
+  width: 320px;
+  margin:100px auto;
+}
+
+
+#answer{
+background-color: #e2e2e2;
+padding: 10px;
+border:2px solid #333;
+font-size: 35px;
+width: 295px;
+height: 45px;
+}
+
+.button{
+  background-color: #333;
+  height: 80px;
+  width: 80px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  border:1px solid #000;
+  cursor: pointer;
+}
+
+.button1{
+
+width: 160px;
+
+}
+
+
+
+
+/* calculator 2 */
+
+h1#result2 {
+  margin: 0 25px 0 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Calulator2 {
+  width: 100%;
+  max-width: 280px;
+  margin: 50px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #999999;
+  font-weight: 400;
+}
+
+.screen2 {
+  background-color: orange;
+  width: 100%;
+  min-height: 60px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.cal-buttons{
+  background: #fff;
+  padding: 10px;
+}
+
+ul#buttons {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+ul#buttons li {
+  color: #000;
+  background: #ecedef;
+  width: 55px;
+  margin: 4px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+ul#button li:hover,ul#buttons li:visited {
+ background: #777777;
+ color: #fff;
+}
+
+ul#button li:hover,ul#buttons li:active {
+  background: #777777;
+  color: #fff;
+ }
+ 
+ 
+
+/* calculator 2 */
